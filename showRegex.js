@@ -12,3 +12,4 @@ console.log(sentence1);
 console.log(sentence2);
 
 console.log(sentence1.replace(reg1, "Jared"));
+console.log(sentence2.replace(reg2, "Opie"));
