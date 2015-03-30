@@ -11,5 +11,7 @@ var reg2 = new RegExp("Jared")
 console.log(sentence1);
 console.log(sentence2);
 
+// Here is where the demonstrations occur
+
 console.log(sentence1.replace(reg1, "Jared"));
 console.log(sentence2.replace(reg2, "Opie"));
