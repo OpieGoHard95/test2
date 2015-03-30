@@ -4,7 +4,13 @@
 
 var nflTeams = [
 {"name": "Bengals", "location": "Cincinnati", "strength": "run" },
-{"name": "Patriots", "location": "New England", "strength": "pass"},
+{"name": "Patriots", "location": "New England", "strength": "pass" },
+{"name": "Colts", "location": "Indianapolis", "strength": "pass" },
+{"name": "Jaguars", "location": "Jacksonville", "strength": "run" },
+{"name": "Panthers", "location": "Carolina", "strength": "run" },
+];
+
+console.log(nflTeams);
 
 function filter(array, test) {
 	var passed = [];
@@ -12,9 +18,20 @@ function filter(array, test) {
 		if (test(array[j]))
 			passed.push(array[j]);
 		}
-	return passed;
+		return passed;
 	}
 
 console.log(filter(nflTeams, function(team) {
 	return team.strength == "run";
 	}));
+
+
+
+
+
+
+
+
+
+
+
